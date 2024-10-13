@@ -27,14 +27,14 @@ A simple Pomodoro timer app built with React.js, CSS, and JavaScript
 
 You can get access to the figma design *below*
 
-[![Figma design](/src/assets/pomodoro-figma.png)](https://www.figma.com/design/UbrO0Pft5D3NO7Q4PAEQCE/Pomodoro?node-id=0-1&t=nUsRGx92ZaU5pX5T-1)
+[Figma design](https://www.figma.com/design/UbrO0Pft5D3NO7Q4PAEQCE/Pomodoro?node-id=0-1&t=nUsRGx92ZaU5pX5T-1)
 
 
 ## Demo
 
 Below is a *preview* of the Pomodoro app
 
- [![Watch the app demo](/src/assets/pomodoro.png)](/src/assets/pomodoro-demo.gif)
+ [App demo](https://i.imgur.com/rcxrw9D.gif)
 
 ## Author
 
