@@ -22,7 +22,6 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  border: 3px solid green;
 }
 .flex {
   display: flex;
@@ -139,7 +138,7 @@
   color: #0f0f0f;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .App {
     border-radius: 10px;
     width: 75vw;
@@ -187,7 +186,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .App {
     border-radius: 10px;
     width: 90vw;
@@ -195,6 +194,7 @@
   }
   .timer-label {
     font-size: 18px;
+    text-align: right;
   }
   #time-left {
     font-size: 2.5rem;
