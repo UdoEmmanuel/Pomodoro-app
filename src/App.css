@@ -196,16 +196,16 @@
     height: 30%;
   }
   .timer-label {
-    font-size: 2.0rem;
+    font-size: 1.25rem;
   }
   #time-left {
-    font-size: 4.5.0rem;
+    font-size: 3.5rem;
     margin: 4px auto;
   }
   #timer-display {
     margin-top: 0.25rem;
     width: 75%;
-    height: 25%;
+    height: 20%;
     padding-left: 4px;
   }
   #timer-length {
@@ -220,8 +220,6 @@
   .label {
     font-size: 1.25rem;
     font-weight: 600;
-  }
-  #session-label {
     text-align: center;
   }
   .break-length,
