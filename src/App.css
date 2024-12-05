@@ -79,9 +79,8 @@
   padding: 0 25px;
 }
 .length {
-  width: 35%;
-  height: 100%;
-  
+  width: 40%;
+  height: 100%; 
 }
 .label {
   font-family: var(--length-font);
@@ -138,7 +137,7 @@
   color: #0f0f0f;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .App {
     border-radius: 10px;
     width: 75vw;
@@ -186,49 +185,61 @@
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .App {
     border-radius: 10px;
     width: 90vw;
     height: 85vh;
   }
+  .App > div {
+    width: 50%;
+    height: 30%;
+  }
   .timer-label {
     font-size: 18px;
-    text-align: right;
   }
   #time-left {
-    font-size: 2.5rem;
     margin: 4px auto;
   }
   #timer-display {
-    width: 70%;
+    margin-top: 0.25rem;
+    width: 75%;
+    padding-left: 4px;
   }
   #timer-length {
+    justify-content: space-around;
     width: 95%;
-    height: 150px;
+    padding: 0;
+    height: 30%;
+  }
+  .length {
+    width: 50%;
   }
   .label {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 600;
   }
   #session-label {
     text-align: left;
   }
   .break-length,
   .session-length {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: 500;
   }
   .controls {
     flex-direction: column;
-    align-items: center;
+    margin-top: 1.0rem;
+  }
+  .break-length, .session-length {
+    font-weight: 600;
   }
   .material-symbols-outlined {
-    font-size: 2.05rem;
+    font-size: 3.0rem;
   }
   #start_stop,
   #reset {
-    font-size: 3rem;
+    font-size: 4.20rem;
   }
   #timer-controls {
     width: 50%;
