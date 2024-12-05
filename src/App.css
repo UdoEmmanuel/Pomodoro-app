@@ -196,14 +196,16 @@
     height: 30%;
   }
   .timer-label {
-    font-size: 18px;
+    font-size: 2.0rem;
   }
   #time-left {
+    font-size: 4.5.0rem;
     margin: 4px auto;
   }
   #timer-display {
     margin-top: 0.25rem;
     width: 75%;
+    height: 25%;
     padding-left: 4px;
   }
   #timer-length {
@@ -220,7 +222,7 @@
     font-weight: 600;
   }
   #session-label {
-    text-align: left;
+    text-align: center;
   }
   .break-length,
   .session-length {
@@ -229,7 +231,7 @@
   }
   .controls {
     flex-direction: column;
-    margin-top: 1.0rem;
+    row-gap: 10px;
   }
   .break-length, .session-length {
     font-weight: 600;
@@ -239,7 +241,7 @@
   }
   #start_stop,
   #reset {
-    font-size: 4.20rem;
+    font-size: 4.0rem;
   }
   #timer-controls {
     width: 50%;
