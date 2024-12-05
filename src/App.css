@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: rgb(211, 207, 207);
 }
 .flex {
   display: flex;
